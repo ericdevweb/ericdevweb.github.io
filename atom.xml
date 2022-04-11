@@ -6,7 +6,7 @@
   <link href="https://ericdevweb.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericdevweb.github.io/"/>
-  <updated>2022-04-08T07:15:12.002Z</updated>
+  <updated>2022-04-11T12:29:52.674Z</updated>
   <id>https://ericdevweb.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About|最穷站长</title>
+    <link href="https://ericdevweb.github.io/2022/04/11/about-zui-qiong-zhan-chang/"/>
+    <id>https://ericdevweb.github.io/2022/04/11/about-zui-qiong-zhan-chang/</id>
+    <published>2022-04-11T12:21:42.000Z</published>
+    <updated>2022-04-11T12:29:52.674Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;a&lt;/p&gt;
+&lt;p&gt;这可能是最垃圾的小站了&lt;/p&gt;
+&lt;p&gt;测试一下&lt;/p&gt;
+&lt;p&gt;讨论贴，有人有建议吗，来提一下&lt;/p&gt;
+&lt;p&gt;有大佬吗，来讨论一下&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+    <category term="About" scheme="https://ericdevweb.github.io/tags/About/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
