@@ -1040,6 +1040,12 @@
 
 <!--酷Q推送-->
 
+<!-- 直达评论 -->
+<div id="to_comment" class="comment-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#vcomments" title="直达评论">
+        <i class="fas fa-comments"></i>
+    </a>
+</div>
 
             
 
@@ -1358,7 +1364,10 @@ $(function () {
     </a>
 </div>
 
+    <!-- 切换夜间/白天模式按钮 -->
+    <a onclick="switchNightMode()" id="sma"> <i class="fa fa-moon-o" id="nightMode" aria-hidden="true"></i> </a>
 
+  
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/materialize/materialize.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/aos/aos.js"></script>

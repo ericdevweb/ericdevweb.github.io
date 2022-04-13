@@ -134,6 +134,45 @@ $(function () {
         let scroll = $(window).scrollTop();
         showOrHideNavBg(scroll);
     });
+    // 深色模式按钮设置
+    if (localStorage.getItem('dark') === '1') {
+    document.body.classList.add('dark');
+    } else if (new Date().getHours() >= 22 || new Date().getHours() < 7) {
+    /*定时开启暗色模式<默认晚22点至早6点默认开启>*/
+    // document.body.classList.add('dark');
+    // $("#nightMode").removeClass("fa-moon-o").addClass("fa-lightbulb");
+    } else if (matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.body.classList.add('dark');
+    }
+
+    // 深色模式设置
+    function switchNightMode() {
+    var body = document.body;
+    if (body.classList.contains('dark')) {
+        document.body.classList.remove('dark');
+        localStorage.setItem('dark', '0');
+        $('#nightMode').removeClass("fa-lightbulb").addClass("fa-moon-o");
+        return;
+    } else {
+        document.body.classList.add('dark');
+        localStorage.setItem('dark', '1');
+        $('#nightMode').removeClass("fa-moon-o").addClass("fa-lightbulb");
+        return;
+    }
+}
+
+/*提醒开启夜间模式功能*/
+setTimeout(
+    function () {
+        if ((new Date().getHours() >= 19 || new Date().getHours() < 7) && !$('body').hasClass('DarkMode')) {
+            let toastHTML = '<span style="color:#97b8b2;border-radius: 10px;>'
+                + '<i class="fa fa-bell" aria-hidden="true"></i>晚上使用深色模式阅读更好哦。(ﾟ▽ﾟ)/</span>'
+            M.toast({html: toastHTML})
+        }
+    }, 2200);
+
+
+
 
     function showOrHideNavBg(position) {
         let showPosition = 100;
