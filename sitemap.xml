@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ericdevweb.github.io/2022/04/11/about-zui-qiong-zhan-chang/</loc>
+    <loc>https://ericdevweb.github.io/posts/52749.html</loc>
+    
+    <lastmod>2022-04-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericdevweb.github.io/posts/undefined.html</loc>
     
     <lastmod>2022-04-12</lastmod>
     
@@ -101,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://ericdevweb.github.io/2022/04/08/hello-world/</loc>
+    <loc>https://ericdevweb.github.io/posts/undefined.html</loc>
     
     <lastmod>2022-04-08</lastmod>
     
@@ -112,7 +121,7 @@
 
   <url>
     <loc>https://ericdevweb.github.io/</loc>
-    <lastmod>2022-04-13</lastmod>
+    <lastmod>2022-04-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,7 +129,7 @@
   
   <url>
     <loc>https://ericdevweb.github.io/tags/About/</loc>
-    <lastmod>2022-04-13</lastmod>
+    <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

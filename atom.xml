@@ -6,7 +6,7 @@
   <link href="https://ericdevweb.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericdevweb.github.io/"/>
-  <updated>2022-04-12T07:19:01.846Z</updated>
+  <updated>2022-04-21T02:29:28.282Z</updated>
   <id>https://ericdevweb.github.io/</id>
   
   <author>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Oh_Nice</title>
+    <link href="https://ericdevweb.github.io/posts/52749.html"/>
+    <id>https://ericdevweb.github.io/posts/52749.html</id>
+    <published>2022-04-21T02:26:45.000Z</published>
+    <updated>2022-04-21T02:29:28.282Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Oh-Nice&quot;&gt;&lt;a href=&quot;#Oh-Nice&quot; class=&quot;headerlink&quot; title=&quot;Oh Nice!&quot;&gt;&lt;/a&gt;Oh</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>About|最穷站长</title>
-    <link href="https://ericdevweb.github.io/2022/04/11/about-zui-qiong-zhan-chang/"/>
-    <id>https://ericdevweb.github.io/2022/04/11/about-zui-qiong-zhan-chang/</id>
+    <link href="https://ericdevweb.github.io/posts/undefined.html"/>
+    <id>https://ericdevweb.github.io/posts/undefined.html</id>
     <published>2022-04-11T12:21:42.000Z</published>
     <updated>2022-04-12T07:19:01.846Z</updated>
     
@@ -41,8 +62,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ericdevweb.github.io/2022/04/08/hello-world/"/>
-    <id>https://ericdevweb.github.io/2022/04/08/hello-world/</id>
+    <link href="https://ericdevweb.github.io/posts/undefined.html"/>
+    <id>https://ericdevweb.github.io/posts/undefined.html</id>
     <published>2022-04-08T07:15:12.002Z</published>
     <updated>2022-04-08T07:15:12.002Z</updated>
     
