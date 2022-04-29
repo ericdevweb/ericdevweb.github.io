@@ -30,6 +30,7 @@
 
     <title>书籍 | Hi,我是许浩宇</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/favicon.png">
+    <link rel="manifest" href="/manifest.json">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/materialize/materialize.min.css">
@@ -384,6 +385,19 @@
 </header>
 
     
+<script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('说出密码，保你小命')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -565,7 +579,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
                 
             </div>
             <hr/>

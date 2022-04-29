@@ -31,6 +31,7 @@
 
     <title>About|最穷站长 | Hi,我是许浩宇</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/favicon.png">
+    <link rel="manifest" href="/manifest.json">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/materialize/materialize.min.css">
@@ -385,6 +386,19 @@
 </header>
 
     
+<script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('说出密码，保你小命')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -584,7 +598,7 @@
 </ul>
 <h3 id="3-关于作者"><a href="#3-关于作者" class="headerlink" title="3.关于作者"></a>3.关于作者</h3><p>作者目前还是初一党啊，详细信息去看看<a href="https://ericdevweb.github.io/about">About</a></p>
 <p><em><strong>希望大噶支持</strong></em></p>
-
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
                 
             </div>
             <hr/>
