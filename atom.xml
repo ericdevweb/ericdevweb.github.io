@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hi,我是许浩宇</title>
   
-  <subtitle>许浩宇的个人小站</subtitle>
+  <subtitle>许浩宇开发者博客</subtitle>
   <link href="https://ericdevweb.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericdevweb.github.io/"/>
-  <updated>2022-04-21T02:30:25.208Z</updated>
+  <updated>2022-04-29T02:16:42.414Z</updated>
   <id>https://ericdevweb.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>欢迎七六班的小伙伴们</title>
+    <link href="https://ericdevweb.github.io/posts/18758.html"/>
+    <id>https://ericdevweb.github.io/posts/18758.html</id>
+    <published>2022-04-29T00:35:09.000Z</published>
+    <updated>2022-04-29T02:16:42.414Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;首先欢迎来自苏州工业园区金鸡湖学校七年级六班的同学们&quot;&gt;&lt;a href=&quot;#首先欢迎来自苏州工业园区金鸡湖学校七年级六班的同学们&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="class" scheme="https://ericdevweb.github.io/categories/class/"/>
+    
+    
+    <category term="class" scheme="https://ericdevweb.github.io/tags/class/"/>
+    
+  </entry>
   
   <entry>
     <title>Oh_Nice</title>
@@ -39,10 +64,10 @@
   
   <entry>
     <title>About|最穷站长</title>
-    <link href="https://ericdevweb.github.io/posts/undefined.html"/>
-    <id>https://ericdevweb.github.io/posts/undefined.html</id>
+    <link href="https://ericdevweb.github.io/posts/897.html"/>
+    <id>https://ericdevweb.github.io/posts/897.html</id>
     <published>2022-04-11T12:21:42.000Z</published>
-    <updated>2022-04-12T07:19:01.846Z</updated>
+    <updated>2022-04-29T02:16:42.388Z</updated>
     
     
       
@@ -62,10 +87,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ericdevweb.github.io/posts/undefined.html"/>
-    <id>https://ericdevweb.github.io/posts/undefined.html</id>
+    <link href="https://ericdevweb.github.io/posts/16107.html"/>
+    <id>https://ericdevweb.github.io/posts/16107.html</id>
     <published>2022-04-08T07:15:12.002Z</published>
-    <updated>2022-04-08T07:15:12.002Z</updated>
+    <updated>2022-04-29T02:16:42.394Z</updated>
     
     
       
