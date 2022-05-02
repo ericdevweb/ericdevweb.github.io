@@ -42,6 +42,12 @@
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/jquery/jquery-3.6.0.min.js"></script>
     <script>document.addEventListener('visibilitychange',function(){    if( document.visibilityState == 'hidden' ){    normal_title = document.title;    document.title = 'ヽ(`Д-)ノ瞎跑啥，回来！';    }else{    document.title = 'ヾ(3)ノ有点听话哦！';    setTimeout(function(){        document.title = normal_title;    }, 1200)    }});</script>
     <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <script>
+    ((window.gitter = {}).chat = {}).options = {
+    room: 'ericdevweb/ericdevweb'
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.3.3/js/sidecar.min.js" async defer></script>
 <meta name="generator" content="Hexo 6.1.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Hey bro!" type="application/atom+xml">
@@ -626,7 +632,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2021-04","2021-05","2021-06","2021-07","2021-08","2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04"]
+            data: ["2021-05","2021-06","2021-07","2021-08","2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05"]
         },
         yAxis: {
             type: 'value',
@@ -636,7 +642,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,4],
+                data: [0,0,0,0,0,0,0,0,0,0,0,4,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
