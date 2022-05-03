@@ -2146,32 +2146,3 @@ p.search-result-summary{
     margin: 0;
 }
 
-/****************************************/
-/*************gitter组件 begin***********/
-/****************************************/
-/* gitter置于最上层 */
-.gitter-chat-embed {
-  z-index: 100;
-}
-
-+ mobile() {
-  .gitter-chat-embed iframe {
-    position: fixed;
-    top: 16px;
-    height: 98% !important;
-  }
-  .gitter-chat-embed-action-bar {
-    z-index: 1000;
-  }
-}
-.gitter-chat-embed-action-bar-item-pop-out{
-    margin: 9px;
-}
-#RightDownBtn svg.chat{
-    width: 21px !important;
-    height: 21px !important;    
-    margin-top: 2px;
-}
-/****************************************/
-/*************gitter组件 end*************/
-/****************************************/
