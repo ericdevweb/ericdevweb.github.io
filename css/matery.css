@@ -201,11 +201,11 @@ mark {
  margin-bottom:0
 }
 .bg-color {
- background-image:linear-gradient(to top,#2eab9f 0,violet 100%);
+ background-image:linear-gradient(to right,#2eab9f 0,violet 100%);
  opacity: .8;
 }
 .footer-color {
- background-image:linear-gradient(to bottom,#2eab9f 0,violet 100%);
+ background-image:linear-gradient(to right,#2eab9f 0,violet 100%);
  opacity: .8;
 }
 .text-color {
@@ -1742,22 +1742,25 @@ p.search-result-summary {
  padding:0;
  margin:0
 }
+/*直达评论按钮样式*/
 .comment-scroll {
- position:fixed;
- right:15px;
- bottom:135px;
- padding-top:15px;
- margin-bottom:0;
- z-index:998
+    position: fixed;
+    right: 15px;
+    bottom: 135px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
 }
+
 .comment-scroll .btn-floating {
- background:linear-gradient(to bottom right,#f99 0,#f66 100%);
- width:48px;
- height:48px
+    background: linear-gradient(to bottom right, #FF9999 0%, #ff6666 100%);
+    width: 48px;
+    height: 48px;
 }
+
 .comment-scroll .btn-floating i {
- line-height:48px;
- font-size:1.8rem
+    line-height: 48px;
+    font-size: 1.8rem;
 }
 .sum-moon-box {
  width:48px;

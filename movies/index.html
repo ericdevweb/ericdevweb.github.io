@@ -656,7 +656,7 @@
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';
                             if (language === 'zh-CN') {
-                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                                daysTip = 'ヾ(3)ノ小站已运行 ' + diffDays + ' 天啦';
                             } else if (language === 'zh-HK') {
                                 daysTip = '本站已運行 ' + diffDays + ' 天';
                             }
@@ -900,11 +900,19 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/js/matery.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_click.js"></script>
 
 
     
 
+    
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/others/sakura.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 雪花特效 -->
@@ -981,13 +989,13 @@ $(function () {
     
 
     
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/background/ribbon.min.js" async="async"></script>
+    
 
     
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/background/ribbon-dynamic.js" async="async"></script>
-    
 
-    
-    <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/instantpage/instantpage.js" type="module"></script>
     
 
     <!-- 冒泡 -->
