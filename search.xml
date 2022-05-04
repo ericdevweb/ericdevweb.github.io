@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>About|最穷站长</title>
-    <url>/posts/897.html</url>
-    <content><![CDATA[<h2 id="欢迎来到本人的站点"><a href="#欢迎来到本人的站点" class="headerlink" title="欢迎来到本人的站点"></a>欢迎来到本人的站点</h2><h3 id="1-引言"><a href="#1-引言" class="headerlink" title="1.引言"></a>1.引言</h3><p>做这个网站不是没有原因的，主要是因为疫情<del>在家上网课摸鱼时闲得慌</del>于是乎去搞了一<em><strong>gayhub</strong></em>账户，《简简单单》的撸了几天的码，学了几天<strong>markdown</strong>搞出来这个小站。<strong>希望大家支持一下学生</strong></p>
-<h3 id="2-技术信息"><a href="#2-技术信息" class="headerlink" title="2.技术信息"></a>2.技术信息</h3><p>这个静态博客网站基于<a href="https://nodejs.cn/">Nodejs</a>开发，主题套了<a href="https://hexo.io/">Hexo</a>和<a href="https://github.com/blinkfox/hexo-theme-matery.git">Hexo-Theme-Matery</a>框架，改一改配置文件</p>
-<ul>
-<li><p><strong>title</strong>要改</p>
-</li>
-<li><p><strong>subtitle</strong>要改</p>
-</li>
-<li><p><strong>Author and language</strong>要改</p>
-<p>最后随便加一个<em><strong>valine</strong></em>评论，就可以<em>deploy</em>到github上去</p>
-<p>github申请一个<strong>Page</strong>服务，就ok了</p>
-</li>
-</ul>
-<h3 id="3-关于作者"><a href="#3-关于作者" class="headerlink" title="3.关于作者"></a>3.关于作者</h3><p>作者目前还是初一党啊，详细信息去看看<a href="https://ericdevweb.github.io/about">About</a></p>
-<p><em><strong>希望大噶支持</strong></em></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <tags>
-        <tag>About</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Oh_Nice</title>
-    <url>/posts/52749.html</url>
-    <content><![CDATA[<h1 id="Oh-Nice"><a href="#Oh-Nice" class="headerlink" title="Oh Nice!"></a>Oh Nice!</h1><p>日常抽风</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/16107.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -80,6 +52,34 @@
       </categories>
       <tags>
         <tag>class</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Oh_Nice</title>
+    <url>/posts/52749.html</url>
+    <content><![CDATA[<h1 id="Oh-Nice"><a href="#Oh-Nice" class="headerlink" title="Oh Nice!"></a>Oh Nice!</h1><p>日常抽风</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>About|最穷站长</title>
+    <url>/posts/897.html</url>
+    <content><![CDATA[<h2 id="欢迎来到本人的站点"><a href="#欢迎来到本人的站点" class="headerlink" title="欢迎来到本人的站点"></a>欢迎来到本人的站点</h2><h3 id="1-引言"><a href="#1-引言" class="headerlink" title="1.引言"></a>1.引言</h3><p>做这个网站不是没有原因的，主要是因为疫情<del>在家上网课摸鱼时闲得慌</del>于是乎去搞了一<em><strong>gayhub</strong></em>账户，《简简单单》的撸了几天的码，学了几天<strong>markdown</strong>搞出来这个小站。<strong>希望大家支持一下学生</strong></p>
+<h3 id="2-技术信息"><a href="#2-技术信息" class="headerlink" title="2.技术信息"></a>2.技术信息</h3><p>这个静态博客网站基于<a href="https://nodejs.cn/">Nodejs</a>开发，主题套了<a href="https://hexo.io/">Hexo</a>和<a href="https://github.com/blinkfox/hexo-theme-matery.git">Hexo-Theme-Matery</a>框架，改一改配置文件</p>
+<ul>
+<li><p><strong>title</strong>要改</p>
+</li>
+<li><p><strong>subtitle</strong>要改</p>
+</li>
+<li><p><strong>Author and language</strong>要改</p>
+<p>最后随便加一个<em><strong>valine</strong></em>评论，就可以<em>deploy</em>到github上去</p>
+<p>github申请一个<strong>Page</strong>服务，就ok了</p>
+</li>
+</ul>
+<h3 id="3-关于作者"><a href="#3-关于作者" class="headerlink" title="3.关于作者"></a>3.关于作者</h3><p>作者目前还是初一党啊，详细信息去看看<a href="https://ericdevweb.github.io/about">About</a></p>
+<p><em><strong>希望大噶支持</strong></em></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <tags>
+        <tag>About</tag>
       </tags>
   </entry>
 </search>
