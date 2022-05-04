@@ -1720,6 +1720,18 @@ $(function () {
   </script>
 
       
+    <!-- 弹出文字 -->
+    
+    <script type="text/javascript">
+        // 只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write(
+                '<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/others/popupText.js"><\/script>'
+            );
+        }
+    </script>
+    
 
     <script>
     /* 模式判断 */
@@ -1731,9 +1743,6 @@ $(function () {
         $('#sum-moon-icon').removeleClass("fa-sun").addClass('fa-moon')
     }
     </script>
-    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-    <script type="text/javascript" src="/js/fireworks.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/materialize/materialize.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/aos/aos.js"></script>
@@ -1749,14 +1758,6 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
-     
-        <script type="text/javascript">
-            // 只在桌面版网页启用特效
-            var windowWidth = $(window).width();
-            if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/libs/others/star.js"><\/script>');
-            }
-        </script>
     
 
     
