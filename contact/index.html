@@ -415,31 +415,46 @@
             </div>
 
             <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "此后如竟没有炬火，我便是唯一的光",
-                            
-                                "你好，访客，很高兴你能够来到这里",
-                            
-                                "如果我能为你提供便利，就是我的荣幸",
-                            
-                                "开始浏览吧！",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
+    
+    
+    <!-- 一言 -->
+    
+        <span id="hitokoto" style="font-size: 20px;"></span>
+        <!-- 打字机 -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+        <script>
+            var hitokotoContent = ''
+            function typed(hitokotoContent) {
+                var typed = new Typed("#hitokoto", {
+                    strings: [
+                        hitokotoContent
+                    ],
+                    startDelay: 300,
+                    typeSpeed: 100,
+                    loop: false,
+                    backSpeed: 50,
+                    showCursor: true
+                });
+            }
+            async function hitokoto() {
+                hitokotoContent = await fetch('https://v1.hitokoto.cn')
+                    .then(function (res) {
+                        return res.json();
+                    })
+                    .then(function (data) {
+                        return ('『' + data.hitokoto + '』' + '<br /> <strong>'+ '——' + '「' + data.from + '」' + '</strong>');
+                    })
+                    .catch(function (err) {
+                        console.error(err);
+                    })
+                await typed(hitokotoContent)
+            }
+            hitokoto()
+        </script>
+    
+</div>
         </div>
     </div>
 </div>
