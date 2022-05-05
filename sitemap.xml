@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ericdevweb.github.io/galleries/2020/index.html</loc>
+    
+    <lastmod>2022-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericdevweb.github.io/galleries/index.html</loc>
+    
+    <lastmod>2022-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ericdevweb.github.io/posts/18758.html</loc>
     
     <lastmod>2022-04-29</lastmod>
@@ -57,15 +75,6 @@
   
   <url>
     <loc>https://ericdevweb.github.io/movies/index.html</loc>
-    
-    <lastmod>2022-04-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ericdevweb.github.io/galleries/index.html</loc>
     
     <lastmod>2022-04-08</lastmod>
     
