@@ -1,1 +1,7 @@
 /* Here is your custom css styles. */
+*{
+    cursor: url("/medias/zc.cur"),auto!important;
+}
+:active{
+    cursor: url("/medias/xz.ico"),auto!important;
+}
