@@ -1,1 +1,32 @@
-var a_idx=0;function delay(){$(".buryit").removeAttr("onclick")}jQuery(document).ready(function(o){o("body").click(function(a){var e=new Array("Basic","Pascal","Object Pascal","C","C++","C#","Java","ASP","Perl","PHP","FoRTRAN","Visual Basic"),t=o("<span/>").text(e[a_idx]),e=(a_idx=(a_idx+1)%e.length,a.pageX),a=a.pageY;t.css({"z-index":5,top:a-20,left:e,position:"absolute","font-weight":"bold",color:"#FF0000"}),o("body").append(t),t.animate({top:a-180,opacity:0},3e3,function(){t.remove()})}),setTimeout("delay()",2e3)});
+var a_idx = 0;
+jQuery(document).ready(function ($) {
+    $("body").click(function (e) {
+        var a = new Array("Basic", "Pascal", "Object Pascal", "C", "C++", "C#", "Java", "ASP", "Perl", "PHP", "FoRTRAN", "Visual Basic");
+        var $i = $("<span/>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+            y = e.pageY;
+        $i.css({
+            "z-index": 5,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "#FF0000"
+        });
+        $("body").append($i);
+        $i.animate({
+                "top": y - 180,
+                "opacity": 0
+            },
+            3000,
+            function () {
+                $i.remove();
+            });
+    });
+    setTimeout('delay()', 2000);
+});
+
+function delay() {
+    $(".buryit").removeAttr("onclick");
+}
