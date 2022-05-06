@@ -208,15 +208,6 @@
       </li>
       
       <li>
-        <a href="/books">
-          
-          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>书籍</span>
-        </a>
-      </li>
-      
-      <li>
         <a href="/galleries">
           
           <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
@@ -385,16 +376,6 @@
               
                 <li>
 
-                  <a href="/books " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>书籍</span>
-                  </a>
-                </li>
-              
-                <li>
-
                   <a href="/galleries " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
@@ -420,91 +401,59 @@
 </header>
 
     <link rel="stylesheet" href="/css/gallery.css">
+<link type="text/css" href="/libs/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link type="text/css" href="/libs/justifiedGallery/justifiedGallery.min.css" rel="stylesheet">
 
-<div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                许浩宇开发者博客
-                
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/ericdevweb/ericdevweb.github.io/medias/featureimages/4.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">2020</h1>
+                </div>
             </div>
-
-            <div class="description center-align">
-    
-    
-    <!-- 一言 -->
-    
-        <span id="hitokoto" style="font-size: 20px;"></span>
-        <!-- 打字机 -->
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
-        <script>
-            var hitokotoContent = ''
-            function typed(hitokotoContent) {
-                var typed = new Typed("#hitokoto", {
-                    strings: [
-                        hitokotoContent
-                    ],
-                    startDelay: 300,
-                    typeSpeed: 100,
-                    loop: false,
-                    backSpeed: 50,
-                    showCursor: true
-                });
-            }
-            async function hitokoto() {
-                hitokotoContent = await fetch('https://v1.hitokoto.cn')
-                    .then(function (res) {
-                        return res.json();
-                    })
-                    .then(function (data) {
-                        return ('『' + data.hitokoto + '』' + '<br /> <strong>'+ '——' + '「' + data.from + '」' + '</strong>');
-                    })
-                    .catch(function (err) {
-                        console.error(err);
-                    })
-                await typed(hitokotoContent)
-            }
-            hitokoto()
-        </script>
-    
-</div>
         </div>
     </div>
 </div>
 
 
 
-
-
+<div class="container">
+    <div class="photo-wrapper">
+        
+            <div class="waterfall" id="encrypt-blog">
+                <a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-1.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-1.png"       alt=images/node-1.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-2.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-2.png"       alt=images/node-2.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-3.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-3.png"       alt=images/node-3.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-4.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-4.png"       alt=images/node-4.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-5.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-5.png"       alt=images/node-5.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-6.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-6.png"       alt=images/node-6.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-7.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-7.png"       alt=images/node-7.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-8.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-8.png"       alt=images/node-8.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/logo.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/logo.png"       alt=images/logo.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/logo1.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/logo1.png"       alt=images/logo1.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-11.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-11.png"       alt=images/node-11.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-12.png"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/node-12.png"       alt=images/node-12.png>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/01.gif"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/01.gif"       alt=images/01.gif>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/02.gif"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/02.gif"       alt=images/02.gif>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/03.gif"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/03.gif"       alt=images/03.gif>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/04.gif"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/04.gif"       alt=images/04.gif>
+    </a>
+            </div>
+        
     </div>
 </div>
 
-<main class="content">
-    <div class="container">
-        
-        
-        <div class="gallery-wrapper row">
-            
-            
-            <div class="col s6 m4 l4 xl3 gallery-box">
-                <a href="./2020" class="gallery-item" data-aos="zoom-in-up">
-                    <div class="gallery-cover-box" style="background-image: url(https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/p0.png);">
-                    </div>
-                    <p class="gallery-name">
-                        2020
-                    </p>
-                </a>
-            </div>
-            
-        </div>
-        
-    </div>
-</main>
+<script src="/libs/fancybox/fancybox.js"></script>
+<script src="/libs/justifiedGallery/justifiedGallery.min.js"></script>
+<script>
+
+  $("a[rel=example_group]").fancybox();
+  $("#encrypt-blog").justifiedGallery({margins: 5, rowHeight: 150});
+
+</script>
 
     <footer class="page-footer bg-color">
     
