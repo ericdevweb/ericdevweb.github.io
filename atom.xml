@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hey bro!</title>
+  <title>我是许浩宇</title>
   
   <subtitle>许浩宇开发者博客</subtitle>
-  <link href="https://ericdevweb.github.io/atom.xml" rel="self"/>
+  <link href="https://ericdevweb.vercel.app/atom.xml" rel="self"/>
   
-  <link href="https://ericdevweb.github.io/"/>
+  <link href="https://ericdevweb.vercel.app/"/>
   <updated>2022-05-05T07:57:34.646Z</updated>
-  <id>https://ericdevweb.github.io/</id>
+  <id>https://ericdevweb.vercel.app/</id>
   
   <author>
     <name>Eric Xu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Markdown练习</title>
-    <link href="https://ericdevweb.github.io/posts/64294.html"/>
-    <id>https://ericdevweb.github.io/posts/64294.html</id>
+    <link href="https://ericdevweb.vercel.app/posts/64294.html"/>
+    <id>https://ericdevweb.vercel.app/posts/64294.html</id>
     <published>2022-05-05T07:51:45.000Z</published>
     <updated>2022-05-05T07:57:34.646Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>欢迎七六班的小伙伴们</title>
-    <link href="https://ericdevweb.github.io/posts/18758.html"/>
-    <id>https://ericdevweb.github.io/posts/18758.html</id>
+    <link href="https://ericdevweb.vercel.app/posts/18758.html"/>
+    <id>https://ericdevweb.vercel.app/posts/18758.html</id>
     <published>2022-04-29T00:35:09.000Z</published>
     <updated>2022-04-29T02:16:42.414Z</updated>
     
@@ -55,17 +55,17 @@
     
     
     
-    <category term="class" scheme="https://ericdevweb.github.io/categories/class/"/>
+    <category term="class" scheme="https://ericdevweb.vercel.app/categories/class/"/>
     
     
-    <category term="class" scheme="https://ericdevweb.github.io/tags/class/"/>
+    <category term="class" scheme="https://ericdevweb.vercel.app/tags/class/"/>
     
   </entry>
   
   <entry>
     <title>Oh_Nice</title>
-    <link href="https://ericdevweb.github.io/posts/52749.html"/>
-    <id>https://ericdevweb.github.io/posts/52749.html</id>
+    <link href="https://ericdevweb.vercel.app/posts/52749.html"/>
+    <id>https://ericdevweb.vercel.app/posts/52749.html</id>
     <published>2022-04-21T02:26:45.000Z</published>
     <updated>2022-04-21T02:30:25.208Z</updated>
     
@@ -86,8 +86,8 @@
   
   <entry>
     <title>About|最穷站长</title>
-    <link href="https://ericdevweb.github.io/posts/897.html"/>
-    <id>https://ericdevweb.github.io/posts/897.html</id>
+    <link href="https://ericdevweb.vercel.app/posts/897.html"/>
+    <id>https://ericdevweb.vercel.app/posts/897.html</id>
     <published>2022-04-11T12:21:42.000Z</published>
     <updated>2022-04-29T02:16:42.388Z</updated>
     
@@ -103,14 +103,14 @@
     
     
     
-    <category term="About" scheme="https://ericdevweb.github.io/tags/About/"/>
+    <category term="About" scheme="https://ericdevweb.vercel.app/tags/About/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ericdevweb.github.io/posts/16107.html"/>
-    <id>https://ericdevweb.github.io/posts/16107.html</id>
+    <link href="https://ericdevweb.vercel.app/posts/16107.html"/>
+    <id>https://ericdevweb.vercel.app/posts/16107.html</id>
     <published>2022-04-08T07:15:12.002Z</published>
     <updated>2022-04-29T02:16:42.394Z</updated>
     
