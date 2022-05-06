@@ -6,7 +6,7 @@
   <link href="https://ericdevweb.vercel.app/atom.xml" rel="self"/>
   
   <link href="https://ericdevweb.vercel.app/"/>
-  <updated>2022-05-05T07:57:34.646Z</updated>
+  <updated>2022-05-06T06:58:17.096Z</updated>
   <id>https://ericdevweb.vercel.app/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于Hexo的matery主题搭建博客网络优化篇-转</title>
+    <link href="https://ericdevweb.vercel.app/posts/52671.html"/>
+    <id>https://ericdevweb.vercel.app/posts/52671.html</id>
+    <published>2022-05-06T06:29:42.000Z</published>
+    <updated>2022-05-06T06:58:17.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;CDN 加速
+
+    为什么强烈建议启用CDN？
+
+    研究表明，用户最满意的打开网页时间，是在 2 秒以下。用户能够忍受的最长等待时间在 6～8</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="https://ericdevweb.vercel.app/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://ericdevweb.vercel.app/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown练习</title>
