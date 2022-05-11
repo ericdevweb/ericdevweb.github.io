@@ -114,4 +114,23 @@ More info: Deployment
         <tag>hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>测试音频和视频模块</title>
+    <url>/posts/1166.html</url>
+    <content><![CDATA[{% meting "571184509" "xiami" "playlist" %}
+
+成功了吗，上面是一段音乐
+(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"hotkey":true,"preload":"metadata","video":{"url":"http://www.nenu.edu.cn/_upload/article/videos/03/5f/7c999eed42e3aadc413d7f851f0e/0f50b3eb-9285-41d2-ac4d-6cc363651aad_B.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() 
+
+
+
+OK?
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
 </search>

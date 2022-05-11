@@ -6,7 +6,7 @@
   <link href="https://ericdevweb.vercel.app/atom.xml" rel="self"/>
   
   <link href="https://ericdevweb.vercel.app/"/>
-  <updated>2022-05-06T06:58:56.976Z</updated>
+  <updated>2022-05-11T07:54:31.204Z</updated>
   <id>https://ericdevweb.vercel.app/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试音频和视频模块</title>
+    <link href="https://ericdevweb.vercel.app/posts/1166.html"/>
+    <id>https://ericdevweb.vercel.app/posts/1166.html</id>
+    <published>2022-05-11T07:32:36.000Z</published>
+    <updated>2022-05-11T07:54:31.204Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="test" scheme="https://ericdevweb.vercel.app/categories/test/"/>
+    
+    
+    <category term="test" scheme="https://ericdevweb.vercel.app/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>基于Hexo的matery主题搭建博客网络优化篇-转</title>
