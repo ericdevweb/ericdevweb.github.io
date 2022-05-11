@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ericdevweb.vercel.app/posts/52749.html</loc>
+    
+    <lastmod>2022-05-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ericdevweb.vercel.app/posts/1166.html</loc>
     
     <lastmod>2022-05-11</lastmod>
@@ -77,15 +86,6 @@
     <loc>https://ericdevweb.vercel.app/posts/16107.html</loc>
     
     <lastmod>2022-04-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ericdevweb.vercel.app/posts/52749.html</loc>
-    
-    <lastmod>2022-04-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
