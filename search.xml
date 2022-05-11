@@ -117,7 +117,26 @@ More info: Deployment
   <entry>
     <title>测试音频和视频模块</title>
     <url>/posts/1166.html</url>
-    <content><![CDATA[{% meting "571184509" "xiami" "playlist" %}
+    <content><![CDATA[
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-atgbncxt"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "她的睫毛",
+              author: "周杰伦",
+              url: "http://home.ustc.edu.cn/~mmmwhy/%d6%dc%bd%dc%c2%d7%20-%20%cb%fd%b5%c4%bd%de%c3%ab.mp3",
+              pic: "http://home.ustc.edu.cn/~mmmwhy/jay.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
 
 成功了吗，上面是一段音乐
 (function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"hotkey":true,"preload":"metadata","video":{"url":"http://www.nenu.edu.cn/_upload/article/videos/03/5f/7c999eed42e3aadc413d7f851f0e/0f50b3eb-9285-41d2-ac4d-6cc363651aad_B.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})() 
