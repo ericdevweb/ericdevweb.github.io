@@ -166,7 +166,7 @@
 
   <url>
     <loc>https://ericdevweb.vercel.app/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,28 +174,28 @@
   
   <url>
     <loc>https://ericdevweb.vercel.app/tags/About/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericdevweb.vercel.app/tags/class/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericdevweb.vercel.app/tags/hexo/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericdevweb.vercel.app/tags/test/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -204,21 +204,21 @@
   
   <url>
     <loc>https://ericdevweb.vercel.app/categories/class/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericdevweb.vercel.app/categories/hexo/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericdevweb.vercel.app/categories/test/</loc>
-    <lastmod>2022-05-11</lastmod>
+    <lastmod>2022-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
