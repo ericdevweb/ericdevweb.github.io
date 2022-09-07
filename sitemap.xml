@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ericdevweb.vercel.app/Game/index.html</loc>
+    <loc>https://ericdevweb.vercel.app/posts/1999.html</loc>
     
-    <lastmod>2022-08-06</lastmod>
+    <lastmod>2022-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericdevweb.vercel.app/posts/18758.html</loc>
+    
+    <lastmod>2022-09-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -23,15 +32,6 @@
     <loc>https://ericdevweb.vercel.app/posts/1166.html</loc>
     
     <lastmod>2022-05-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ericdevweb.vercel.app/posts/18758.html</loc>
-    
-    <lastmod>2022-05-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -204,6 +204,13 @@
   
   <url>
     <loc>https://ericdevweb.vercel.app/tags/test/</loc>
+    <lastmod>2022-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericdevweb.vercel.app/tags/wish/</loc>
     <lastmod>2022-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
